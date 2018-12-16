@@ -1,6 +1,7 @@
 import updateNewlyCheckedItems from './updateNewlyCheckedItems.js';
 import updateNewlyUncheckedItems from './updateNewlyUncheckedItems.js';
 import updateLocalStorage from './updateLocalStorage.js';
+import scrollListToTop from './scrollListToTop.js';
 
 /**
  * Execute all operations for both check->uncheck and uncheck->check actions.
@@ -11,6 +12,7 @@ function bindButtonFunctionality(){
 
         updateNewlyCheckedItems();
         updateNewlyUncheckedItems();
+        scrollListToTop();
         updateLocalStorage();
     });
 
