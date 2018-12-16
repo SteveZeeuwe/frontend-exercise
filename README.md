@@ -15,6 +15,16 @@ See you soon!
 
 Steve
 
+# Shut up and get me started
+Okey okey. To get started simply clone the repo and
+
+```
+npm install
+npm start
+```
+
+The application will open itself on localhost:8080, have fun!
+
 ## Requirements:
 - [x] Toon de multi-selector met de JSON als opties
 - [x] Maak een zoekfunctie dat frontend filtering doet op de input
