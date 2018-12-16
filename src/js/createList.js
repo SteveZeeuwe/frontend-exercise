@@ -16,8 +16,8 @@ function renderList(){
 /**
  * Create and return an <li> containing a checkbox and label.
  * 
- * @param {string} item 
- * @param {number} index 
+ * @param {string} item
+ * @param {number} index
  * @returns {Element}
  */
 function createListitem(item, index){
