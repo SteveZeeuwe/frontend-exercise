@@ -4,13 +4,14 @@ function renderList(){
     
     const ulEl = document.getElementById('js-ListAll');
 
-    Items.data.forEach(item => {
-        ulEl.appendChild(createListitem(item));
+    Items.data.forEach((item, index) => {
+        ulEl.appendChild(createListitem(item, index));
     });
 };
 
-function createListitem(item){
+function createListitem(item, index){
     const listEl = document.createElement('li');
+    listEl.dataset.index = index;
 
     const labelEl = document.createElement('label');
     listEl.appendChild(labelEl);
