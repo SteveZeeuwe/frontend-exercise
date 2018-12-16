@@ -1,5 +1,39 @@
 $bolBlue: #36c;
 
+h1{
+
+}
+
+.InputContainer{
+    position: relative;
+
+    input[type=text]{
+        width: 100%;
+        height: 2.5rem;
+        margin: 0;
+        padding: .5rem;
+        transition: all .25s;
+        border-width: 1px;
+        border-style: solid;
+        border-color: #c3c1bc;
+        border-radius: .25rem;
+        background-color: #fff;
+        -webkit-appearance: none;
+    }
+    
+    .SearchIcon{
+        position: absolute;
+        top: 13px;
+        right: 13px;
+    }
+}
+
+ul{
+    overflow-x: hidden;
+    overflow-y: scroll;
+    max-height: 150px;
+}
+
 button{
     background: $bolBlue;
 }
