@@ -1,5 +1,9 @@
 import Items from '../data/items.json';
 
+/**
+ * Render the given data array into the placeholder.
+ * 
+ */
 function renderList(){
     
     const ulEl = document.getElementById('js-ListAll');
@@ -9,6 +13,13 @@ function renderList(){
     });
 };
 
+/**
+ * Create and return an <li> containing a checkbox and label.
+ * 
+ * @param {string} item 
+ * @param {number} index 
+ * @returns {Element}
+ */
 function createListitem(item, index){
     const listEl = document.createElement('li');
     listEl.dataset.index = index;
