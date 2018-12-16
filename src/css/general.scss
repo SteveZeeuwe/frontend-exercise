@@ -57,6 +57,17 @@ ul{
 
     li{
         padding: 0.5rem 0;
+
+        &:hover,
+        input:hover,
+        label:hover{
+            color: $bolBlue;
+            cursor: pointer;
+        }
+
+        input{
+            margin-right: 0.5rem;
+        }
     }
 }
 
