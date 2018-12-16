@@ -54,7 +54,7 @@ h1{
 ul{
     list-style: none;
     padding: 0;
-    margin: 0;
+    margin: 0 1rem 0 0;
 
     &.ListToegepast{
         border-bottom: 1px solid grey;
@@ -69,7 +69,7 @@ ul{
     }
 
     li{
-        padding: 0 0.5rem 0 0;
+        padding: 0;
         margin: 0;
 
         &:hover,
