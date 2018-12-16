@@ -1,3 +1,20 @@
+# Welcome!
+Usually I write a specific set of chapters for my repo's, but since we will be sitting together soon I'll keep it short.
+
+Below you can see a summary of what you guys requested and what I did. I chose to aproach the asignment from an MVP point of view, meaning 
+that all requirements are met and are tested in the major evergreen browsers, but that does not mean that the code is 100% bug free nor 
+that the code is written to be future-proof.
+
+I have several suggestions on how to improve the code; from a performance point of view, reusability/modularity, defensive programming and the structure.
+I am aware of a few edgecases that aren't covered, but nothing that breaks the application nor the UX (in a too horrible way).
+
+I am looking forward to show you guys how and why I approached things the way I did, answer your questions and talk about how to improve everything if I had more 
+time / directions.
+
+See you soon!
+
+Steve
+
 ## Requirements:
 - [x] Toon de multi-selector met de JSON als opties
 - [x] Maak een zoekfunctie dat frontend filtering doet op de input
