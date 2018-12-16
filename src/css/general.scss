@@ -15,8 +15,12 @@ body{
 .Container{
     min-width: 400px;
     padding: 1.5rem;
-    @include border();
     background: #f8f8f8;}
+    @include border();
+
+    @media (max-width: 400px) {
+        min-width: 0;
+    }
 
 h1{
     margin: 0 0 1rem 0;
