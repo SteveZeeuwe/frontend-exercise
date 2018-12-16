@@ -2,7 +2,7 @@ import Items from '../data/items.json';
 
 function renderList(){
     
-    const ulEl = document.getElementById('List');
+    const ulEl = document.getElementById('js-List');
 
     Items.data.forEach(item => {
         ulEl.appendChild(createListitem(item));
