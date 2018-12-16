@@ -1,12 +1,6 @@
-$bolBlue: #36c;
-$borderRadius: .25rem;
-
-@mixin border() {
-    border-width: 1px;
-    border-style: solid;
-    border-color: #c3c1bc;
-    border-radius: $borderRadius;
-}
+@import 'variables.scss';
+@import 'mixins.scss';
+@import 'scrollbar.scss';
 
 *{
     box-sizing: border-box;
@@ -57,7 +51,7 @@ h1{
     overflow-x: hidden;
     overflow-y: scroll;
 
-    margin-top:1rem;
+    margin:1rem 0;
 }
 
 ul{
