@@ -7,13 +7,17 @@ function updateNewlyUncheckedItems(){
         
         const listItem = checkbox.parentElement.parentElement;
 
-        unHideSpecificListItem(listItem.dataset.index);
-        listItem.remove();
+        unhideListItem(listItem.dataset.index);
+        removeListItem(listItem);
     }); 
 }
 
-function unHideSpecificListItem(index){
+function unhideListItem(index){
     listAll.querySelector(`[data-index="${index}"]`).classList.remove('Hidden');
+}
+
+function removeListItem(listItem){
+    listItem.remove();
 }
 
 export default updateNewlyUncheckedItems;
