@@ -1,0 +1,23 @@
+{
+  "name": "frontend-exercise",
+  "version": "1.0.0",
+  "description": "A showcase for Bol.com",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SteveZeeuwe/frontend-exercise.git"
+  },
+  "author": "Steve Zeeuwe",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SteveZeeuwe/frontend-exercise/issues"
+  },
+  "homepage": "https://github.com/SteveZeeuwe/frontend-exercise#readme",
+  "devDependencies": {
+    "gulp": "^4.0.0",
+    "gulp-sass": "^4.0.2",
+    "gulp-util": "^3.0.8",
+    "gulp-watch-sass": "^1.4.1"
+  }
+}
