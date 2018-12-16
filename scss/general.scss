@@ -1,7 +1,32 @@
 $bolBlue: #36c;
+$borderRadius: .25rem;
+
+@mixin border() {
+    border-width: 1px;
+    border-style: solid;
+    border-color: #c3c1bc;
+    border-radius: $borderRadius;
+}
+
+body{
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Container{
+    min-width: 320px;
+    padding: 1.5rem;
+    @include border();
+    background: #f8f8f8;}
 
 h1{
-
+    margin: 0 0 1rem 0;
+    font-weight: normal;
+    font-size: 1.3rem;
 }
 
 .InputContainer{
@@ -12,13 +37,8 @@ h1{
         height: 2.5rem;
         margin: 0;
         padding: .5rem;
-        transition: all .25s;
-        border-width: 1px;
-        border-style: solid;
-        border-color: #c3c1bc;
-        border-radius: .25rem;
+        @include border();
         background-color: #fff;
-        -webkit-appearance: none;
     }
     
     .SearchIcon{
@@ -31,9 +51,30 @@ h1{
 ul{
     overflow-x: hidden;
     overflow-y: scroll;
-    max-height: 150px;
+    max-height: 250px;
+    list-style: none;
+    padding: 0;
+
+    li{
+        padding: 0.5rem 0;
+    }
 }
 
 button{
+    width: 100%;
+    padding: 0.8rem 1rem;
+    color: #fff;
+    font-size: 1.2rem;
     background: $bolBlue;
+    border-radius: $borderRadius;
+    border: 0;
+    border-bottom: 1px solid rgba(0,0,0,.35);
+
+    transition: background-color .25s ease-in,border .25s ease-in;
+    
+    &:hover{
+        background-color: #5c85d6;
+        border-bottom: 1px solid rgba(0,0,0,.25);
+        cursor: pointer;
+    }
 }
