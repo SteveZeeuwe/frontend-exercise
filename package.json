@@ -2,8 +2,11 @@
   "name": "frontend-exercise",
   "version": "1.0.0",
   "description": "A showcase for Bol.com",
-  "main": "index.js",
-  "scripts": {},
+  "scripts": {
+    "build": "webpack",
+    "watch": "webpack --watch",
+    "start": "webpack-dev-server --open"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/SteveZeeuwe/frontend-exercise.git"
@@ -15,9 +18,12 @@
   },
   "homepage": "https://github.com/SteveZeeuwe/frontend-exercise#readme",
   "devDependencies": {
-    "gulp": "^4.0.0",
-    "gulp-sass": "^4.0.2",
-    "gulp-util": "^3.0.8",
-    "gulp-watch-sass": "^1.4.1"
+    "css-loader": "^2.0.1",
+    "node-sass": "^4.11.0",
+    "sass-loader": "^7.1.0",
+    "style-loader": "^0.23.1",
+    "webpack": "^4.27.1",
+    "webpack-cli": "^3.1.2",
+    "webpack-dev-server": "^3.1.10"
   }
 }
