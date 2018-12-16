@@ -16,7 +16,7 @@ body{
 }
 
 .Container{
-    min-width: 320px;
+    min-width: 400px;
     padding: 1.5rem;
     @include border();
     background: #f8f8f8;}
@@ -72,7 +72,7 @@ ul{
     }
 
     li{
-        padding: 0.5rem 0;
+        padding: 0.5rem 0.5rem 0.5rem 0;
         margin: 0;
 
         &:hover,
