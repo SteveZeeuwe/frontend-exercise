@@ -15,8 +15,6 @@ function bindButtonFunctionality(){
         scrollListToTop();
         updateLocalStorage();
     });
-
-    console.log(localStorage.getItem("storedListSelection"));
 };
 
 export default bindButtonFunctionality;
