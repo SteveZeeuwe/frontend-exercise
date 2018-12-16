@@ -10,14 +10,14 @@ function updateNewlyUncheckedItems(){
         unhideListItem(listItem.dataset.index);
         removeListItem(listItem);
     }); 
-}
+};
 
 function unhideListItem(index){
     listAll.querySelector(`[data-index="${index}"]`).classList.remove('Hidden');
-}
+};
 
 function removeListItem(listItem){
     listItem.remove();
-}
+};
 
 export default updateNewlyUncheckedItems;

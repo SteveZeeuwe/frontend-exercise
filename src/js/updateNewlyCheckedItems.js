@@ -11,13 +11,13 @@ function updateNewlyCheckedItems(){
         hideListitem(listItem);
         uncheckListItem(listItem);
     }); 
-}
+};
 
 function addCheckedItemsToToegepastArray(item){
 
     const clone = item.cloneNode(true);
     listToegepastEl.appendChild(clone);
-}
+};
 
 function hideListitem(listItem){
 
