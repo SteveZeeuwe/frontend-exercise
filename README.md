@@ -15,7 +15,7 @@ See you soon!
 
 Steve
 
-# Shut up and get me started
+# Quickstart
 Okey okey. To get started simply clone the repo and
 
 ```
