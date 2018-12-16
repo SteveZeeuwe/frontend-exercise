@@ -1,14 +1,19 @@
 function bindButtonFunctionality(){
     
     const buttonEl = document.getElementById('js-Toepassen');
+    const listAll = document.getElementById('js-ListAll');
     const listToegepastEl = document.getElementById('js-ListToegepast');
 
     buttonEl.addEventListener('click', () => {
 
-        const checkedItems = document.querySelectorAll('input[type=checkbox]:checked');
+        const checkedItems = listAll.querySelectorAll('input[type=checkbox]:checked');
 
         checkedItems.forEach(item => {
-            listToegepastEl.appendChild(item.parentElement.parentElement);
+            
+            const clone = item.parentElement.parentElement.cloneNode(true);
+            listToegepastEl.appendChild(clone);
+
+            item.parentElement.parentElement.classList.add('Hidden');
         });
     });
 };
