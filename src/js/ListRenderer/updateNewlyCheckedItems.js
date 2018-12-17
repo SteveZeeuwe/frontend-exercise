@@ -1,4 +1,4 @@
-import {listToegepastEl, listAll} from './elementReferences.js';
+import {listToegepastEl, listAll} from '../../data/elementReferences.js';
 
 /**
  * Grab all checked items from the 'all' list and handle them.

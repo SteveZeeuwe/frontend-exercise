@@ -1,4 +1,4 @@
-import {listAllItems} from './elementReferences.js';
+import {listAllItems} from '../data/elementReferences.js';
 
 /**
  * Listen to input changes.

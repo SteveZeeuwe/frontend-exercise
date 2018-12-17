@@ -1,6 +1,6 @@
-import updateNewlyCheckedItems from './updateNewlyCheckedItems.js';
-import updateNewlyUncheckedItems from './updateNewlyUncheckedItems.js';
-import updateLocalStorage from './updateLocalStorage.js';
+import updateNewlyCheckedItems from './ListRenderer/updateNewlyCheckedItems.js';
+import updateNewlyUncheckedItems from './ListRenderer/updateNewlyUncheckedItems.js';
+import updateLocalStorage from './ListRenderer/updateLocalStorage.js';
 import scrollListToTop from './scrollListToTop.js';
 
 /**

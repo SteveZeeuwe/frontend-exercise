@@ -1,4 +1,4 @@
-import {listToegepastEl} from './elementReferences.js';
+import {listToegepastEl} from '../../data/elementReferences.js';
 
 function updateLocalStorage(){
     

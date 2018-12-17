@@ -1,4 +1,4 @@
-import Items from '../data/items.json';
+import Items from '../../data/items.json';
 
 /**
  * Render the given data array into the placeholder.

@@ -1,4 +1,4 @@
-import {listAll} from './elementReferences.js';
+import {listAll} from '../../data/elementReferences.js';
 
 function useLocalStorage(){
     
